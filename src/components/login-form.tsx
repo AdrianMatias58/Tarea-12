@@ -21,7 +21,7 @@ export function LoginForm({
   ...props
 }: React.ComponentProps<"div">) {
   return (
-    <div className={cn("flex flex-col gap-6", className)} {...props}>
+    <div className={cn("flex flex-col gap-3", className)} {...props}>
       <h1 className="text-center font-bold text-4xl">
         Bienvenido
       </h1>
