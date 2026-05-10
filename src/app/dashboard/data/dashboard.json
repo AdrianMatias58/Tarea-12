@@ -1,0 +1,31 @@
+{
+  "ResumenCard": {
+    "totalAprendices": 5,
+    "promedioGeneral": 77,
+    "enRiesgo": 1
+  },
+  "avance": {
+    "semana": {
+      "tareasTotales": 3,
+      "tareasCompletadas": 1,
+      "tareasPendientes": 2,
+      "tareasIncompletas": 0,
+      "chartData": [
+        { "name": "Completada", "value": 1, "color": "#22c55e" },
+        { "name": "Pendiente", "value": 2, "color": "#eab308" },
+        { "name": "Incompleta", "value": 0, "color": "#ef4444" }
+      ]
+    },
+    "mes": {
+      "tareasTotales": 12,
+      "tareasCompletadas": 8,
+      "tareasPendientes": 3,
+      "tareasIncompletas": 1,
+      "chartData": [
+        { "name": "Completada", "value": 8, "color": "#22c55e" },
+        { "name": "Pendiente", "value": 3, "color": "#eab308" },
+        { "name": "Incompleta", "value": 1, "color": "#ef4444" }
+      ]
+    }
+  }
+}
