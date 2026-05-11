@@ -4,9 +4,22 @@ import { useState } from "react"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Calendar, CheckCircle2, Clock, XCircle, LayoutGrid } from "lucide-react"
-import { DonaChart } from "@/app/dashboard/components/DonaChart"
+import { DonaChart, ChartData } from "@/app/dashboard/components/DonaChart"
 
-export function TabNav({ datosAvance }: { datosAvance: any }) {
+export interface AvanceData {
+  tareasTotales: number;
+  tareasCompletadas: number;
+  tareasPendientes: number;
+  tareasIncompletas: number;
+  chartData: ChartData[];
+}
+
+export interface AvancePeriodos {
+  semana: AvanceData;
+  mes: AvanceData;
+}
+
+export function TabNav({ datosAvance }: { datosAvance: AvancePeriodos }) {
   const [periodo, setPeriodo] = useState<"semana" | "mes">("semana")
   const avanceActual = datosAvance[periodo]
 
