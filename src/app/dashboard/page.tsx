@@ -1,5 +1,3 @@
-"use client"
-
 import { ResumenCards } from "@/app/dashboard/components/ResumenCards"
 import { TabNav } from "@/app/dashboard/components/TabNav"
 import data from "@/app/dashboard/data/dashboard.json"

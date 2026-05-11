@@ -1,7 +1,13 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Users, TrendingUp, AlertTriangle } from "lucide-react"
 
-export function ResumenCards({ datos }: { datos: any }) {
+export interface ResumenData {
+  totalAprendices: number;
+  promedioGeneral: number;
+  enRiesgo: number;
+}
+
+export function ResumenCards({ datos }: { datos: ResumenData }) {
   return (
     <div className="grid gap-4 md:grid-cols-3">
       <Card className="bg-zinc-900/60 border-zinc-800">
