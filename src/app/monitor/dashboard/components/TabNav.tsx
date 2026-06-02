@@ -4,7 +4,7 @@ import { useState } from "react"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Calendar, CheckCircle2, Clock, XCircle, LayoutGrid } from "lucide-react"
-import { DonaChart, ChartData } from "@/app/dashboard/components/DonaChart"
+import { DonaChart, ChartData } from "@/app/monitor/dashboard/components/DonaChart"
 
 export interface AvanceData {
   tareasTotales: number;

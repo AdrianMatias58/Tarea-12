@@ -1,8 +1,8 @@
 import { TablaAprendices } from "./components/tabla-aprendices";
 import { Cards } from "./components/cards"; 
-import { ResumenCards } from "@/app/dashboard/components/ResumenCards"
-import { TabNav } from "@/app/dashboard/components/TabNav"
-import data from "@/app/dashboard/data/dashboard.json"
+import { ResumenCards } from "@/app/monitor/dashboard/components/ResumenCards"
+import { TabNav } from "@/app/monitor/dashboard/components/TabNav"
+import data from "./data/dashboard.json";
 
 export default function DashboardPage() {
   return (
